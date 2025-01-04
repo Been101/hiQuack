@@ -10,8 +10,7 @@
 			"nodes":[
 				17,
 				34,
-				35,
-				36
+				35
 			]
 		}
 	],
@@ -86,9 +85,9 @@
 				0.8420988321304321
 			],
 			"translation":[
-				0,
-				-0.3218849301338196,
-				0
+				0.3072384297847748,
+				-0.32188281416893005,
+				0.18434454500675201
 			]
 		},
 		{
@@ -121,6 +120,11 @@
 				-0.046092428267002106,
 				-0.036217402666807175,
 				0.9352121353149414
+			],
+			"translation":[
+				0.06474097818136215,
+				0,
+				0.2407638430595398
 			]
 		},
 		{
@@ -515,22 +519,8 @@
 			],
 			"translation":[
 				-0.9054098129272461,
-				2.49615740776062,
-				0.08941967785358429
-			]
-		},
-		{
-			"mesh":10,
-			"name":"helmet",
-			"scale":[
-				0.58688884973526,
-				0.46717333793640137,
-				0.58688884973526
-			],
-			"translation":[
-				-0.5108140110969543,
-				2.4103102684020996,
-				-0.0739375650882721
+				2.403977394104004,
+				0.14757168292999268
 			]
 		}
 	],
@@ -676,11 +666,6 @@
 				"metallicFactor":0,
 				"roughnessFactor":0.9207483530044556
 			}
-		},
-		{
-			"doubleSided":true,
-			"name":"\u6750\u8d28.002",
-			"pbrMetallicRoughness":{}
 		}
 	],
 	"meshes":[
@@ -872,20 +857,6 @@
 					},
 					"indices":41,
 					"material":10
-				}
-			]
-		},
-		{
-			"name":"\u7403\u4f53",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":60,
-						"NORMAL":61,
-						"TEXCOORD_0":62
-					},
-					"indices":63,
-					"material":11
 				}
 			]
 		}
@@ -1400,40 +1371,6 @@
 			"componentType":5126,
 			"count":439,
 			"type":"VEC2"
-		},
-		{
-			"bufferView":60,
-			"componentType":5126,
-			"count":395,
-			"max":[
-				0.9999997019767761,
-				1,
-				0.9999993443489075
-			],
-			"min":[
-				-0.9999990463256836,
-				-0.5555702447891235,
-				-1
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":61,
-			"componentType":5126,
-			"count":395,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":62,
-			"componentType":5126,
-			"count":395,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":63,
-			"componentType":5123,
-			"count":2016,
-			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
@@ -1796,36 +1733,12 @@
 			"byteLength":3512,
 			"byteOffset":346128,
 			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":4740,
-			"byteOffset":349640,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":4740,
-			"byteOffset":354380,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":3160,
-			"byteOffset":359120,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":4032,
-			"byteOffset":362280,
-			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":366312,
-			"uri":"duck.bin"
+			"byteLength":349640,
+			"uri":"duck02.bin"
 		}
 	]
 }
